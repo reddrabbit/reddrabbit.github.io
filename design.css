@@ -1,1 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #777;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.logo{font-family: 'Shrikhand', serif;
+    font-size:50px;
+    color:#f9ac40;;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+.logosmall{
+    font-size: 30px;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+
+.nav li{
+    display: inline;
+}
+
+.nav li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5%;
+    color: #000;
+    letter-spacing: .18em;
+    
+}
+.main {
+    text-align: right;
+    font-size:12px;
+    text-transform: uppercase;
+    
+}
+ a:hover:not(.active) {
+    background-color: #fcd6a0;;
+  color: white;}
+
+.nav a.active{
+    background-color:#ff9500;;
+    color: white;}
+
+.head{
+    padding: .5%;
+}
+
+.container{
+    padding: 0 .5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+
+
+.content{
+    margin: 10%;
+    max-width: 100%;
+    text-align: justify;
+}
+
+
+
+.aboutcon{
+    margin: 5%;
+    padding: 0 .5%;
+
+}
+
+h2{
+    font-weight: 200%;
+    font-size: 40px;
+    text-align: left;
+    color: #2f3037;
+}
+
+.foot{
+    
+    background-color: #f9ac40;
+    
+    margin: 0 .2%;
+    position:relative;
+    max-width: 100%;
+}
+
+
+.foot ul{
+    list-style-type: none;
+}
+
+.foot ul a{
+    display: flex;
+    float: right;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+#skills{
+    margin-top: 10%;
+    text-align: center;
+    border-bottom: solid  #f9ac40;
+    border-bottom-width: 10%;
+}
+
+.Experience{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.Experience ul{
+    list-style-type:disc;
+
+#list01 p{
+    font-size: 25px;
+    text-align: start;
+    font-weight: 400;
+    color: #2f3037;
+}
+
 
