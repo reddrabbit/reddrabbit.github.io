@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<!-- lang attribute sets the HTML page's language to English. Credit: W3.org -->
+<!-- Layout of page was inspired by Maddie Harris' webpage @ https://maddieharris.org/ -->
+<html lang="en">
     <head>
+        <!-- Meta charset = "utf-8" specifies the encoding of the webpage, to avoid misinterpretation by the browser. Credit: W3.org -->
+        <meta charset="utf-8">
         <title>Myles Esun</title>
-            <link rel="stylesheet" href="design.css">
+        <link rel="stylesheet" href="design.css">
+        <!-- Links to googlefonts.com to enable the use of specified fonts in this document -->
 	    <link rel="preconnect" href="https://fonts.googleapis.com">
 	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Pacifico&family=Shrikhand&family=Work+Sans:ital,wght@1,200;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
+         <!-- Header specifies everything that goes into the header portion of the webpage. Idea from freecodecamp-->
         <header class="head">
             <div>
             <h1 class="logo">MylesE.</h1>
@@ -15,10 +21,11 @@
             <ul class="nav main">
                 <li><a href = "index.html" class="active">Home</a></li>
                 <li><a href = "About.html" >About</a></li>
-                <li><a href = "#Portfolio"> Portfolio</a></li>
+                <li><a href = "Port.html"> Portfolio</a></li>
             </ul>
         </header>
-        <div class="container">
+         <!-- Section tag embodies everything displayed outside the footer and header portions of the page. Idea modified from freecodecamp -->
+        <section class="container">
             <div class="content">
                 <p>What's up?! i'm</p>
                 <h2>Omasanjuwa Myles Esun</h2>
@@ -32,16 +39,14 @@
              <div>
                 <img class="image01" src = "./Images/136.jpg" alt = "Not an illustration of me, but it'll do" height=444 width=452>
              </div>   
-             <div>
-                <button class="button01" type="button"><a href="#Resume">Resume</a></button>
-            </div>       
-        </div>
+         </section>
 
 
 
         <h2 id = "skills">SKILLS</h2>
+
         <div class="Experience">
-        <div id="list01" >
+        <div class="list01" >
             <p>Soft Skills</p>
             <ul>
                 <li>Composition</li>
@@ -52,7 +57,7 @@
                 <li>Research</li>
             </ul>
         </div>
-        <div id="list02">
+        <div class="list01">
             <p>Hard Skills</p>
             <ul>
                 <li>Drawing and Illustration</li>
@@ -64,7 +69,7 @@
                  <li>Imaginative drawing</li>
             </ul>
         </div>
-        <div id="list03">
+        <div class="list01">
             <p>Software Proficiency</p>
             <ul>
                 <li>Adobe photoshop</li>
@@ -74,7 +79,7 @@
                 <li>Clipstudio Paint</li>
             </ul>
         </div>
-     </div>
+    </div>
 
     </body>
 </html>
